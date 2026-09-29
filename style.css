@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.pilotos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-piloto {
+    width: 300px;
+    padding: 25px;
+    background-color: #1f2937;
+    border-radius: 12px;
+}
+
+.card-piloto h2 {
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #dc2626;
+    color: white;
+}
+
+button:hover {
+    background-color: #b91c1c;
+}
+
+#estadisticas {
+    margin-top: 15px;
+    font-weight: bold;
+}
