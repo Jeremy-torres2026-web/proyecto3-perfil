@@ -31,6 +31,7 @@ h1 {
     width: 300px;
     padding: 25px;
     background-color: #1f2937;
+    border: 2px solid #eab308;
     border-radius: 12px;
 }
 
